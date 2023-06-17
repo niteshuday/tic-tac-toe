@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+* {
+  
+  user-select: none;
+}
+
+.ctr {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabel {
+  width: 480px;
+  height: 480px;
+  margin: 10px auto;
+  background: #4f5a33;
+  border-radius: 100%;
+  border: 1px solid #0D152B;
+  box-shadow: -2px 20px 0 -3px #3e254e, -20px 20px #0D152B;
+  flex-direction: column;
+}
+
+.board {
+  width: 369.2307692308px;
+  height: 369.2307692308px;
+  background: #077cbb;
+  border-radius: 20px;
+  border: 1px solid #0D152B;
+  box-shadow: -10px 5px 0px -2px #192852;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 8px;
+  padding: 12px;
+}
+
+.board > span {
+  background: #32393e;
+  color: #fff;
+  font-size: 2em;
+  padding-left: 9px;
+  padding-top: 6px;
+  text-align: center;
+  border: 2px solid #0D152B;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: -1.2px 2px 0px 0px #141D4C;
+}
+.board > span:hover {
+  background: #6aa8d2;
+}
+.board > span:active {
+  box-shadow: -1.2px 7.4px 0px -2.5px #141D4C;
+}
+
+#reset {
+  margin-top: 14px;
+  color: #fff;
+}
+
+.win {
+  background: #108766 !important;
+}
+
+
+ .btn {
+    padding: 1em 2.1em 1.1em;
+    border-radius: 3px;
+    margin: 8px 8px 8px 8px;
+    color: #fbdedb;
+    background-color: #fbdedb;
+    display: inline-block;
+    background: #e74c3c;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    font-family: sans-serif;
+    font-weight: 800;
+    font-size: .85em;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0em -0.3rem 0em rgba(0, 0, 0, 0.1) inset;
+    position: relative;
+}
+.btn:hover, .btn:focus {
+    opacity: 0.8;
+}
+.btn:active {
+    -webkit-transform: scale(0.80);
+    -moz-transform: scale(0.80);
+    -ms-transform: scale(0.80);
+    -o-transform: scale(0.80);
+    transform: scale(0.80);
+}
+.btn.block {
+    display: block !important;
+}
+.btn.circular {
+  border-radius: 50em !important;
+}
+.red {
+    background-color: #d55050;
+}
+.teal {
+    background-color: #50d5a1;
+}
+.sky {
+    background-color: #6698cb;
+}
+.black {
+    background-color: #5c6166;
+}
+.gray {
+    color: black;
+    background-color: #d2d2d2;
+}
+.orange {
+    background-color: #e96633;
+}
+.pink {
+    background-color: #cb99c5;
+}
+.green {
+    background-color: #5bbd72;
+}
+.blue {
+    background-color: #7abedf;
+}
+.yellow {
+    background-color: #ecc92b;
+}
+.purple {
+    background-color: #564f8a;
+}
